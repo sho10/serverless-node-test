@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "es2020",
+        "esModuleInterop": true,
+        "target": "es2020",
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
